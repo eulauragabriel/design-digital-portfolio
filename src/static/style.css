@@ -7,14 +7,15 @@
     padding-top: 1%;
 }
 
-.container-link{
+.container-link {
     padding-top: 1%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-a { 
+a {
+    font-size: 1em;
     font-family: "Montserrat Bold";
     color: #141219 !important;
     text-decoration: none !important;
@@ -35,8 +36,8 @@ p {
     margin-left: 7%;
     margin-right: 7%;
     font-family: "Montserrat Bold";
-    forced-color-adjust: #141219;
-    font-size: large;
+    color: #141219;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -44,19 +45,25 @@ p {
 h1 {
     text-align: center;
     font-family: "Montserrat ExtraBold";
-    forced-color-adjust: #141219;
+    font-size: 1.5em;
+    color: #141219;
 }
 
 h2 {
     text-align: center;
     font-family: "Montserrat ExtraBold";
-    forced-color-adjust: #141219;
+    font-size: 1em;
+    color: #141219;
+}
+
+b {
+    font-family: "Montserrat ExtraBold";
+    font-size: 1em;
+    color: #141219;
 }
 
 
-
-
-/* parte inicial */
+/* home */
 
 .container {
     display: flex;
@@ -72,15 +79,51 @@ h2 {
     padding-top: 5%;
     width: 5%;
     font-family: "Montserrat ExtraBold";
-    font-size: 110%;
+    font-size: 1.5em;
     font-weight: bolder;
     text-align: left;
-    forced-color-adjust: #141219;
+    color: #141219;
 }
 
 .laulau {
     padding-left: 25%;
     padding-top: 4%;
+}
+
+/* projetos e hobbies */
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies img {
+    margin: 0% 2%;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+}
+
+.projetos img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+}
+
+.youtube img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 /* footer */
@@ -119,7 +162,7 @@ h2 {
     grid-row: 4;
     padding-top: 10%;
     font-family: "Montserrat Bold";
-    color: #141219 !important; 
+    color: #141219 !important;
     text-decoration: none !;
     transform: 0.3s;
 }
@@ -145,32 +188,9 @@ h2 {
     transition: 0.8s;
 }
 
-#linkedin :hover{
+#linkedin :hover {
     font-family: "Montserrat ExtraBold";
     color: #141219;
     text-decoration: none;
     transition: 0.8s;
 }
-
-
-.hobbies {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hobbies img{
-    margin: 0% 2%;
-}
-
-.projetos {
-    display: flex;
-    justify-content: center;
-}
-
-.projetos img{
-    display: block;
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 80%;
-}    
