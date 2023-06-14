@@ -5,27 +5,32 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("sobremim.html")
+    title = "Sobre mim"
+    return render_template("sobremim.html", title=title)
 
 
 @app.route("/sobremim")
 def sobremim():
-    return render_template("sobremim.html")
+    title = "Sobre mim"
+    return render_template("sobremim.html", title=title)
 
 
 @app.route("/projetos")
 def projetos():
-    return render_template("projetos.html")
+    title = "Projetos"
+    return render_template("projetos.html", title=title)
 
 
 @app.route("/capacidades")
 def capacidades():
-    return render_template("capacidades.html")
+    title = "Capacidades"
+    return render_template("capacidades.html", title=title)
 
 
 @app.route("/hobbies")
 def hobbies():
-    return render_template("hobbies.html")
+    title = "Hobbies"
+    return render_template("hobbies.html", title=title)
 
 
 if __name__ == "__main__":
