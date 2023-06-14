@@ -7,13 +7,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>{{title}}</title>
 </head>
 
 <header>
 {% block head %}
 <div class="container-link">
-    <div><img class="logo" src="../static/img/logo.png" alt="logo" width="100px" height="100px"></div>
+    <div><img srcset="../static/img/logo_250.png 200w, ../static/img/logo.png 500w" alt="logo" sizes="(max-width: 600px) 25px, 40px" class="logo"></div>
     <div id="link"><a href="/sobremim">Sobre mim</a></div>   
     <div id="link"><a href="/projetos">Projetos</a></div>  
     <div id="link"><a href="/capacidades">Capacidades</a></div>
@@ -27,11 +27,11 @@
 </body>
 
 <footer>
-<div class="container-footer">
-    <div id="email"><a href="mailto:eulauragabriel@gmail.com" target="_blank">E-mail</a></div>
-    <div id="instagram"><a href="https://instagram.com/eulauragabriel" target="_blank">Instagram</a></div>
-    <div id="linkedin"><a href="https://linkedin.com/eulauragabriel" target="_blank">Linkedin</a></div>
-    <div id="github"><a href="https://github.com/eulauragabriel" target="_blank">GitHub</a></div>
+<div class="container-link">
+    <div id="link"><a href="mailto:eulauragabriel@gmail.com" target="_blank">E-mail</a></div>
+    <div id="link"><a href="https://instagram.com/eulauragabriel" target="_blank">Instagram</a></div>
+    <div id="link"><a href="https://linkedin.com/eulauragabriel" target="_blank">Linkedin</a></div>
+    <div id="link"><a href="https://github.com/eulauragabriel" target="_blank">GitHub</a></div>
 </div>
 </footer>
 

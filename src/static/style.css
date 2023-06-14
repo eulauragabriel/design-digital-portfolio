@@ -1,8 +1,6 @@
 /* header */
 
 .logo {
-    width: 50px;
-    height: 50px;
     padding-left: 10%;
     padding-top: 1%;
 }
@@ -20,6 +18,10 @@ a {
     color: #141219 !important;
     text-decoration: none !important;
     transform: 0.3s;
+}
+
+#link {
+    font-size: 1.1em;
 }
 
 #link :hover {
@@ -68,16 +70,17 @@ b {
 .container {
     display: flex;
     flex-flow: wrap;
+    flex: content;
+    justify-content: center;
 }
 
 .leaf {
-    padding-top: 10%;
-    padding-left: 15%;
+    padding-top: 12%;
 }
 
 .laura {
     padding-top: 5%;
-    width: 5%;
+    width: 1%;
     font-family: "Montserrat ExtraBold";
     font-size: 1.5em;
     font-weight: bolder;
@@ -117,80 +120,97 @@ b {
 .youtube {
     display: flex;
     justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .youtube img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 70%;
 }
 
-/* footer */
+/* capacidades */
 
-.container-footer {
-    display: grid;
-    grid-row: auto auto auto auto auto;
-    grid-column: auto auto auto auto auto;
+.capacidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#email {
-    color: #141219 !important;
-    text-decoration: none !important;
-    grid-column: 2;
-    grid-row: 2;
-    padding-top: 5%;
-    font-family: "Montserrat Bold";
+.capacidades img {
+    margin: 0% 2%;
 }
 
-#instagram {
-    grid-column: 2;
-    grid-row: 4;
-    padding-top: 10%;
-    font-family: "Montserrat Bold";
-}
 
-#linkedin {
-    grid-column: 4;
-    grid-row: 2;
-    padding-top: 5%;
-    font-family: "Montserrat Bold";
-}
+/* responsividade */
 
-#github {
-    grid-column: 4;
-    grid-row: 4;
-    padding-top: 10%;
-    font-family: "Montserrat Bold";
-    color: #141219 !important;
-    text-decoration: none !;
-    transform: 0.3s;
-}
+@media screen and (max-width: 800px) {
+    .logo {
+        padding-left: 5%;
+    }
 
-#email :hover {
-    font-family: "Montserrat ExtraBold";
-    color: #141219 !important;
-    text-decoration: none !important;
-    transition: 0.8s;
-}
+    .container-link {
+        padding-top: 2%;
+    }
 
-#instagram :hover {
-    font-family: "Montserrat ExtraBold";
-    color: #141219 !important;
-    text-decoration: none !important;
-    transition: 0.8s;
-}
+    p {
+        margin-left: 4%;
+        margin-right: 4%;
+        font-size: 0.9em;
+    }
 
-#github :hover {
-    font-family: "Montserrat ExtraBold";
-    color: #141219 !important;
-    text-decoration: none !important;
-    transition: 0.8s;
-}
+    h1 {
+        font-size: 1em;
+    }
 
-#linkedin :hover {
-    font-family: "Montserrat ExtraBold";
-    color: #141219;
-    text-decoration: none;
-    transition: 0.8s;
+    h2 {
+        font-size: 0.8em;
+    }
+
+    .container {
+        p
+    }
+
+    .leaf {
+        padding-top: 12%;
+    }
+
+    .laura {
+        padding-left: 3%;
+        width: 1%;
+        font-size: 1.1em;
+    }
+
+    .laulau {
+        padding-left: 30%;
+        padding-top: 3%;
+    }
+
+    #link {
+        font-size: 0.9em;
+    }
+
+    footer {
+        margin-top: 25%;
+    }
+
+    .logo {
+        padding-left: 2%;
+    }
+
+    .container-link {
+        padding-top: 3%;
+    }
+
+    p {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .hobbies img {
+        width: 22%;
+    }
+
 }
