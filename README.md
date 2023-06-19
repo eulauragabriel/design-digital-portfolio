@@ -15,11 +15,16 @@
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&color=a45ee5"/>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&color=a45ee5"/>
     <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&color=a45ee5"/>
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white&color=a45ee5"/>
 </p>
 
 ### 🔧 Executando a aplicação:
 
-#### Siga os passos a seguir:
+#### Para acessar o portfólio basta entrar no site:
+
+https://portfolioeulauragabriel.vercel.app/sobremim
+
+#### Caso deseje executar na sua máquina, siga os passos a seguir:
 
 #### Primeiramente certifique-se de possuir o Python instalado em sua máquina, caso ainda não possua, acesse <a href="https://www.python.org/downloads/">aqui!</a> 
 
@@ -56,10 +61,11 @@
 ### 📎 Arquivos do repositório:
 <p> :file_folder: <strong>doc</strong> - pasta que armazena o pdf do wireframe desse projeto, tanto para desktop, quanto para mobile</p>
 <p> :file_folder: <strong>scr</strong> - pasta que armazena pastas <em>templates</em> e <em>static</em>, além do arquivo <em>app.py</em> e <em>requirements.txt</em></p>
-<p> | - :open_file_folder: <strong>static</strong> - pasta que armazena pastas <em>font</em> e <em>img</em>, além dos arquivos <em>.css</em></p>
-<p> | - - :open_file_folder: <strong>font</strong> - pasta que armazena os arquivos de fontes externas utilizadas no site <em>.ttf</em></p>
-<p> | - - :open_file_folder: <strong>img</strong> - pasta que armazena todas as imagens <em>.png</em> utilizadas nas páginas do portfolio</p>
-<p> | - :open_file_folder: <strong>templates</strong> - pasta que armazena os arquivos <em>.html</em></p>
+<p> | - :open_file_folder: <strong>api</strong> - pasta que armazena pastas <em>templates</em> e <em>static</em>, além do arquivo <em>app.py</em> e <em>requirements.txt</em></p>
+<p> | - - :open_file_folder: <strong>static</strong> - pasta que armazena pastas <em>font</em> e <em>img</em>, além dos arquivos <em>.css</em></p>
+<p> | - - - :open_file_folder: <strong>font</strong> - pasta que armazena os arquivos de fontes externas utilizadas no site <em>.ttf</em></p>
+<p> | - - - :open_file_folder: <strong>img</strong> - pasta que armazena todas as imagens <em>.png</em> utilizadas nas páginas do portfolio</p>
+<p> | - - :open_file_folder: <strong>templates</strong> - pasta que armazena os arquivos <em>.html</em></p>
 
 
 ### 📰 Sobre as páginas do portfólio:
