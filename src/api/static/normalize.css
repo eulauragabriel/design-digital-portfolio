@@ -1,18 +1,18 @@
 /* body */
 
 body{
-    background-color: #fefdeb;
     padding: 0%;
     margin: auto;
+    background-color: #ebfefd;
 }
 
 /* footer */
 
 footer{
-    background-color: #FDB985;
     width: 100%;
     height: 12%;
     margin-top: 6%;
+    background-color: #85f7fd;
 }
 
 /* fontes */
