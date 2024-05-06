@@ -43,7 +43,7 @@ https://portfolioeulauragabriel.vercel.app/sobremim
  
  # Ative o ambiente virtual:
  
- venv/Scripts/activate
+ venv\Scripts\activate
  
  # Instale os requisitos para rodar a aplicação:
    
